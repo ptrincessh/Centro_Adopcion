@@ -1,0 +1,149 @@
+/* --- ESTILO LILA PASTEL Y NAVY (SUAVE Y ELEGANTE) --- */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap');
+
+:root {
+    --bg-light-lila: #efe8ff;   /* Fondo general lila clarito */
+    --card-white: #ffffff;      /* Blanco puro para las tarjetas */
+    --purple-pastel: #d6a2e8;   /* Púrpura pastel para elementos secundarios */
+    --accent-warm: #feca57;     /* Amarillo cálido para resaltar */
+    --text-navy: #0a3d62;       /* Azul naval para máxima legibilidad */
+    --purple-dark: #82589f;     /* Púrpura oscuro para títulos y detalles */
+    --btn-success: #6c5ce7;     /* El nuevo color para el botón de acción */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--bg-light-lila); 
+    margin: 0;
+    padding: 40px 20px;
+    color: var(--text-navy);
+}
+
+/* --- TÍTULO PRINCIPAL --- */
+h1 {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--purple-dark); /* Ahora el título resalta en púrpura oscuro */
+    text-shadow: 2px 2px 0px rgba(255,255,255,0.5);
+    margin-bottom: 50px;
+}
+
+/* --- CATÁLOGO --- */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--card-white);
+    border-radius: 30px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 10px 0px rgba(130, 88, 159, 0.1); /* Sombra sutil en tono púrpura */
+    transition: all 0.3s ease;
+    border: 4px solid #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--purple-pastel); /* Iluminación en lila al pasar el mouse */
+}
+
+.card h3 {
+    color: var(--purple-dark);
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.card h3::after {
+    content: ' 🐾';
+}
+
+.card p {
+    color: var(--text-navy);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* --- BOTONES --- */
+.btn {
+    display: inline-block;
+    background-color: var(--btn-success);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 5px 0px #4834d4; /* Sombra profunda para el botón */
+}
+
+.btn:hover {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0px #4834d4;
+    filter: brightness(1.1);
+}
+
+/* --- TABLAS E HISTORIAL --- */
+.table-container, .form-container {
+    background-color: var(--card-white);
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 950px;
+    margin: 40px auto;
+    box-shadow: 0 10px 0px rgba(0,0,0,0.05);
+}
+
+th {
+    padding: 20px;
+    text-align: left;
+    color: var(--purple-dark); 
+    border-bottom: 4px solid var(--bg-light-lila);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+td {
+    padding: 20px;
+    color: var(--text-navy);
+    border-bottom: 2px solid #f9f9f9;
+    font-weight: 600;
+}
+
+tr:hover td {
+    background-color: var(--bg-light-lila);
+    color: var(--purple-dark);
+}
+
+/* --- FORMULARIOS --- */
+label {
+    color: var(--text-navy);
+    font-weight: 800;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 3px solid #eee;
+    border-radius: 15px;
+    background-color: #fcfaff;
+    font-size: 1rem;
+    color: var(--text-navy);
+    font-family: inherit;
+}
+
+input:focus {
+    border-color: var(--accent-warm); /* El foco ahora usa el amarillo cálido */
+    outline: none;
+    background-color: white;
+}

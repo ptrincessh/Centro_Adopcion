@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historial de Adopciones</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; font-family: sans-serif; }
+        th, td { border: 1px solid #25144f; padding: 12px; text-align: left; }
+        th { background-color: #977fbe; }
+        tr:nth-child(even) { background-color: #dab9f0; }
+    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>Historial de Adopciones</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Adoptante</th>
+                <th>Apellido</th>
+                <th>Perrito</th>
+                <th>Raza</th>
+                <th>Fecha de Adopción</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for registro in adopciones %}
+    <tr>
+        <td>{{ registro[0] }}</td> <td>{{ registro[1] }}</td> <td>{{ registro[2] }}</td> <td>{{ registro[3] }}</td> <td>{{ registro[4] }}</td> </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+
+    <br>
+    <a href="/">Volver al catálogo</a>
+
+</body>
+</html>
