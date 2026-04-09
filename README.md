@@ -15,7 +15,7 @@ de las tonalidades lilas y la disposición organizada de los elementos.
 Esta es la vista del formulario para la agregar el nombre de la persona que quiere adoptar, el lugar a donde vive y el ID luego de a ver completado dichos campos ya se puede realizar la adopción.
 > ![Formulario de Registro](formulario.png)
 
-### 3. Historial de adpción
+### 3. Historial de adopción
 Y por ultimo se muestra la vista al historial de adopciones en donde se puede visualizar que perritos fueron adoptados por quien fue adoptado,la hora y la fecha de dicha adopción.
 > ![Confirmación Final](historial.png)
 
