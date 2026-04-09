@@ -1,4 +1,4 @@
-# 🐾 Sistema de Gestión: Centro de Adopción de Perritos
+# 🐾 Centro de Adopción de Perritos
 
 Este proyecto es una plataforma web integral diseñada para digitalizar y facilitar el flujo de adopción de 
 mascotas. El sistema permite gestionar desde el registro de nuevos caninos hasta la confirmación final de su 
