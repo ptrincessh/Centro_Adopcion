@@ -11,12 +11,12 @@ Vista principal donde el administrador o usuario puede visualizar a los perritos
 de las tonalidades lilas y la disposición organizada de los elementos.
 > ![Pantalla Principal](catalogo.png)
 
-### 3. Registro y Formulario de Adopción
-El proceso de captura de datos cuenta con validaciones para asegurar que la información de cada perrito (raza, edad, descripción) sea correcta antes de guardarse en el servidor.
+### 2. Registro y Formulario de Adopción
+Esta es la vista del formulario para la agregar el nombre de la persona que quiere adoptar, el lugar a donde vive y el ID luego de a ver completado dichos campos ya se puede realizar la adopción.
 > ![Formulario de Registro](formulario.png)
 
-### 4. Confirmación de Adopción
-Interfaz final que recibe al usuario tras completar un proceso exitoso, manteniendo la coherencia visual del sistema.
+### 3. Historial de adpción
+Y por ultimo se muestra la vista al historial de adopciones en donde se puede visualizar que perritos fueron adoptados por quien fue adoptado,la hora y la fecha de dicha adopción.
 > ![Confirmación Final](historial.png)
 
 ## Stack Tecnológico
