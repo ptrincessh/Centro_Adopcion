@@ -13,7 +13,7 @@ de las tonalidades lilas y la disposición organizada de los elementos.
 
 ### 3. Registro y Formulario de Adopción
 El proceso de captura de datos cuenta con validaciones para asegurar que la información de cada perrito (raza, edad, descripción) sea correcta antes de guardarse en el servidor.
-> ![Formulario de Registro](confirmacion.png)
+> ![Formulario de Registro](formulario.png)
 
 ### 4. Confirmación de Adopción
 Interfaz final que recibe al usuario tras completar un proceso exitoso, manteniendo la coherencia visual del sistema.
