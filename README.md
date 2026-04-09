@@ -20,17 +20,17 @@ Y por ultimo se muestra la vista al historial de adopciones en donde se puede vi
 > ![Confirmación Final](historial.png)
 
 ## Stack Tecnológico
-* **Python 3.10+: Elegido por su sintaxis limpia y su excelente manejo de lógica de servidor.
+* Python 3.10+: Elegido por su sintaxis limpia y su excelente manejo de lógica de servidor.
   
-* **Flask: Se utilizó este micro-framework debido a su flexibilidad. Permite gestionar rutas dinámicas y renderizar plantillas de forma ligera sin la sobrecarga de frameworks más pesados.
+* Flask: Se utilizó este micro-framework debido a su flexibilidad. Permite gestionar rutas dinámicas y renderizar plantillas de forma ligera sin la sobrecarga de frameworks más pesados.
 
-* **MySQL Server: Se optó por este motor relacional por su fiabilidad en el manejo de registros vinculados.
+* MySQL Server: Se optó por este motor relacional por su fiabilidad en el manejo de registros vinculados.
 
-* **HTML & CSS: HTML es el lenguaje que uso para crear las casillas de texto y los botones de mi sistema; es la base donde luego aplico mis colores pasteles con CSS y la lógica con Python.
+* HTML & CSS: HTML es el lenguaje que uso para crear las casillas de texto y los botones de mi sistema; es la base donde luego aplico mis colores pasteles con CSS y la lógica con Python.
   
-* **Visual Studio Code: Entorno de desarrollo principal, aprovechando sus extensiones de Python y terminal integrada.
+* Visual Studio Code: Entorno de desarrollo principal, aprovechando sus extensiones de Python y terminal integrada.
   
-* **Linux (Ubuntu): Sistema operativo base, utilizado por su estabilidad y herramientas nativas para la gestión de servidores web y procesos de bases de datos.
+* Linux (Ubuntu): Sistema operativo base, utilizado por su estabilidad y herramientas nativas para la gestión de servidores web y procesos de bases de datos.
 
 ## Instalación y Configuración Local
 
