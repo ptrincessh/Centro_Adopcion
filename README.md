@@ -9,11 +9,11 @@ adopción, utilizando un entorno seguro y visualmente amigable.
 ### 1. Catálogo
 Vista principal donde el administrador o usuario puede visualizar a los perritos disponibles. Se aprecia el uso 
 de las tonalidades lilas y la disposición organizada de los elementos.
-> ![Pantalla Principal](catálogo.png)
+> ![Pantalla Principal](catalogo.png)
 
 ### 3. Registro y Formulario de Adopción
 El proceso de captura de datos cuenta con validaciones para asegurar que la información de cada perrito (raza, edad, descripción) sea correcta antes de guardarse en el servidor.
-> ![Formulario de Registro](confirmación.png)
+> ![Formulario de Registro](confirmacion.png)
 
 ### 4. Confirmación de Adopción
 Interfaz final que recibe al usuario tras completar un proceso exitoso, manteniendo la coherencia visual del sistema.
