@@ -31,10 +31,3 @@ Y por ultimo se muestra la vista al historial de adopciones en donde se puede vi
 * Visual Studio Code: Entorno de desarrollo principal, aprovechando sus extensiones de Python y terminal integrada.
   
 * Linux (Ubuntu): Sistema operativo base, utilizado por su estabilidad y herramientas nativas para la gestión de servidores web y procesos de bases de datos.
-
-## Instalación y Configuración Local
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/tu-usuario/centro-adopcion.git](https://github.com/tu-usuario/centro-adopcion.git)
-   cd centro-adopcion
