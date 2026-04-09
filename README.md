@@ -22,7 +22,7 @@ Y por ultimo se muestra la vista al historial de adopciones en donde se puede vi
 ## Stack Tecnológico
 * Python 3.10+: Elegido por su sintaxis limpia y su excelente manejo de lógica de servidor.
   
-* Flask: Se utilizó este micro-framework debido a su flexibilidad. Permite gestionar rutas dinámicas y renderizar plantillas de forma ligera sin la sobrecarga de frameworks más pesados.
+* Flask: Se utilizó este micro-framework debido a su flexibilidad. Permite construir páginas web mas rápido.
 
 * MySQL Server: Se optó por este motor relacional por su fiabilidad en el manejo de registros vinculados.
 
